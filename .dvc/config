@@ -1,0 +1,5 @@
+[core]
+    remote = minio
+['remote "minio"']
+    url = s3://model/
+    endpointurl = http://minio-service.cansu.svc.cluster.local:9000
